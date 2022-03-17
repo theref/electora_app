@@ -1,5 +1,11 @@
 allow_embedding: false
 package_name: electora
+db_schema:
+  table_1:
+    title: Table 1
+    client: none
+    server: full
+    columns: []
 name: electora
 startup_form: Form1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox}
